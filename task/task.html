@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="task.css">
+    <title>Task</title>
+</head>
+
+
+<body>
+
+<!--
+INSTRUCTIONS:
+Improve this code -- html, js, and CSS.
+You can do anything you like. 
+As long as you think it's a better solution 
+and can justify your choices.
+
+First, fork this solution (Click Fork in header) so you have a fresh starting point.
+Once finished, share your version url(copy from url bar or click Share in header) via email.
+
+We expect your update within 24 hrs. 
+Request more time if 24hrs is insufficient for any reason.
+EXTRA POINTS---------
+Pause text for 2000ms on hover and reverse the sequence until mouse out.
+
+-->
+
+<!-- onmouseover="stop(this)" onmouseout="play(this)" -->
+
+<div class="container"   onmouseout="play()">
+        <span id="tw"></span>
+        <div id="wrap"  onmouseover="stop()">
+            <div id="bw"><span id="txt_L">&nbsp;</span><span id="txt_C"></span><span id="txt_R"></span></div>
+        </div>
+    
+        <textarea id="input" class="hide">
+                Oh, hey there, TIDWRTWHUFOO fans. Thinking about going for a little dip this summer? How about you go for a swim with a one-ton crab that will smash you under its massive legs? Sound fun? Definitely!
+                Crabster is a wild crab-like robot designed to explore the deepest oceans without smashing itself into a squashed tin can. It has massive legs, a large body, and lots of cameras so it can find you even if you’re the dude from The Big Blue and can dive really deep. There’s no escaping our future robotic-aquatic overlords
+        </textarea>
+    </div>
+
+
+    <script src="task.js"></script>
+</body>
+
+</html>
